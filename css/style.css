@@ -114,7 +114,7 @@ img {
     text-align: center;
 }
 
-/* Fixando a imagem do WhatsApp no canto esquerdo inferior e 
+/* Fixando a imagem do WhatsApp no canto direito inferior e 
 ajustando o tamanho de tal forma que coubesse dentro do footer quando rolasse o scroll para baixo  */
 img.chat {
     width: 80px;
