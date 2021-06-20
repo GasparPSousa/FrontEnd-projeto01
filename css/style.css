@@ -1,16 +1,18 @@
+/* Aplicando boas práticas */
 * {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
 }
 
-
+/* Resetando o posicionamento do body */
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
 }
 
+/* Ajustando o tamanho, cor e fixando o header */
 header {
     background-color: rgb(38, 28, 61);
     text-align: center;
@@ -22,16 +24,19 @@ header {
     z-index: 10;
 }
 
+/* Alterando a cor dos nomes no menu */
 span {
     color: rgb(182, 165, 189);
 }
 
+/* Ajustando e retirando os bullets da lista não-ordenada */
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/* Ajustando a lista para ficar um ícone ao lado do outro */
 li {
     display: inline-block;
     padding: 20px;
@@ -39,6 +44,7 @@ li {
     
 }
 
+/* Ajustando cor, tamanho e posicionamento do main */
 main {
     background-color: #f2f2f2;
     width: 100%;
@@ -47,12 +53,13 @@ main {
 
 }
 
+/* Inserindo bordas pontilhadas e ajustando o padding nas sections */
 section {
     border-top: 2px dotted gray;
     border-bottom: 2px dotted gray;
     padding: 30px;
 }
-
+/* Inserindo bordas pontilhadas, cores e ajustando o padding nos articles */
 article {
     padding: 10px;
     margin: 0px 0;
@@ -61,11 +68,13 @@ article {
     
 }
 
+/* Alinhando ao centro e inserindo uma cor no h1 */
 h1 {
     text-align: center;
     color: turquoise;
 }
 
+/* Alinhando ao centro e inserindo uma cor e um underline no h2 */
 h2 {
     text-align: center;
     text-transform: none;
@@ -73,17 +82,19 @@ h2 {
     color: turquoise;
 }
 
+/* Alterando a cor do paragrafo na classe descricao */
 .descricao p {
     color: black;
 }
 
+/* Alterando a cor do paragrafo na classe noticias */
 .noticias p {
     color: rgba(116, 3, 116, 0.746);
     width: 100%;
 }
 
 
-
+/* Ajustando o tamanho e posicionando o footer */
 footer {
     text-align: center;
     width: 100%;
@@ -98,9 +109,13 @@ footer {
 
 }
 
+/* Alinhando as imagens ao centro */
 img {
     text-align: center;
 }
+
+/* Fixando a imagem do WhatsApp no canto esquerdo inferior e 
+ajustando o tamanho de tal forma que coubesse dentro do footer quando rolasse o scroll para baixo  */
 img.chat {
     width: 80px;
     height: 80px;
@@ -111,12 +126,14 @@ img.chat {
 
 }
 
+/* Ajustando o tamanho do banner */
 img.banner {
     width: 100%;
     padding: 30px;
     margin: 10px;
 }
 
+/* Ajustando o tamanho das imagens dos ícones */
 .listaImagens img {
     width: 25px;
 }
